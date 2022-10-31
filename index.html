@@ -1,170 +1,196 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <!-- (Part 2: CSS, Question 0) Font import here. If you don't know what this is yet, don't worry, we cover this in the Part 2 of the homework.-->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <title>WingYeung Ma</title>
-</head>
-<body>
-    <div id=container>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WingYeung Ma Portfolio</title>
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
-        <div class = "top-header">
-            <!-- Question 0. Add an image here (a picture of you!) Make sure it's a square. -->
-            <h1>WingYeung Ma</h1>
-            <img src="img/self.jpg">
+    </head>
 
-        </div>
-
-        <!-- Question 1. Add headings to each of these sections! Make this heading smaller than your name.-->
-        <h2>Education</h2>
-        <section id="education">
-            <!-- Question 2. Fill this in with details about your degree, major(s), and coursework. Use at least 1 header tag (h3, b, or em). -->
-            <ul>
-                <li>
-                    Degree: bachelor
-                </li>
-                <li>
-                    Major: Data Science
-                </li>
-                <li>
-                    Courseworks: Math 55: Discrete Mathematics, CS 61A: Structure and Interpretation of Computer Programs (Python,
-                    SQL), CS 61B: Data Structures (Java), Math 124: Programming for Mathematical Applications (Julia), Data C8 Foundation of
-                    Data Science (Python, numpy), CIVENG C88: Data Science for Smart Cities (Python, pandas), Stat 88: Probability (Spicy)
-                </li>
-            </ul>
-        </section>
-
-        <h2>Experiences</h2>
-        <section id="experience">
-            <!-- Question 3c. Create a div that contains all the experience-list-item divs named "experience-wrapper"! You'll need this later. -->
-            <div class="experience-wrapper">
-                <!-- Question 3a. Create 2 to 3 divs with the same class (experience-list-item), and fill them in with your work experiences. -->
-                <div class="experience-list-item">
-                    <h3>Encinal Badminton Team Captain</h3>
-                    <ul>
-                        <!-- Question 3b. Fill this in with some bulletpoints on things you did. -->
-                        <li>
-                            Organize practice for the team, creating weekly schedule for team members, organize team activities and leave memories
-                            to all team members and coach.
-                        </li>
-                        <li>
-                            Be responsible to all important in the team such as, checking on necessary material for practice, communicating with
-                            coach, school and third party organization, answering question that team members have.
-                        </li>
-                    </ul>
-                </div>
-                <div class="experience-list-item">
-                    <h3>Meet Fresh Shift Leader</h3>
-                    <ul>
-                        <!-- Question 3b. Fill this in with some bulletpoints on things you did. -->
-                        <li>
-                            Monitored inventory and report to store manger/store owner for low stock's items.
-                        </li>
-                        <li>
-                            Provided memorable customer service by assisting with merchandise when needed for meeting store demand.
-                        </li>
-                        <li>
-                            Manger other employees rest time and lunch break. Ensure the overall quality and satisfaction of the store.
-                        </li>
-                    </ul>
-                </div>
+    <body>
+        <header>
+            <div class="app_btn">
+                <a href="#home">
+                    <i class='bx bxs-grid'></i>
+                </a>
             </div>
-        </section>
-
-        <h2>Projects</h2>
-        <section id="projects">
-
-            <!-- Question 4b. Create a div that contains all the projects-list-item divs named "project-wrapper". You'll need this later! -->
-            <div class="project-wrapper">
-                <!-- Question 4a. Create a few project-list-items divs. Fill these in with your favorite projects! -->
-                <div class="project-list-item">
-                    <h3>CS 61B - The Enigma</h3>
-                    <ul>
-                        <!-- Question 3b. Fill this in with some bulletpoints on things you did. -->
-                        <li>
-                            Developing the Enigma machines with Java. It is used in World War II to encrypt and decrypt military communications.                        
-                        </li>
-                        <li>
-                            Building off of several classes with Java Object Oriented Features. It's including creating classes for machines,
-                            permutation, moving rotor, and reflector.                        
-                        </li>
-                        <li>
-                            Learning how to debug code using Intellij built-in debug feature.                        
-                        </li>
-                    </ul>
-                </div>
-                <div class="project-list-item">
-                    <h3>CS 61B - Gitlet</h3>
-                    <ul>
-                        <!-- Question 3b. Fill this in with some bulletpoints on things you did. -->
-                        <li>
-                            Gitlet is a version-control system that is very similar to git. The goal of the project is to implemnt file store, writing and
-                            reading file and detecting change in the file.                        
-                        </li>
-                        <li>
-                            Through the project, we as the students can be more familiar with the git system. Gitlet command is very similar to the
-                            real Git.                        
-                        </li>
-                    </ul>
-                </div>
-                <div class="project-list-item">
-                    <h3>Math 124 - Neural Networks for Character Recognition</h3>
-                    <ul>
-                        <!-- Question 3b. Fill this in with some bulletpoints on things you did. -->
-                        <li>
-                            In this project, we are predicting the regular characters for the noisy characters with Julia programming Language                        
-                        </li>
-                        <li>
-                            It is related to machine learning using a multilayer perceptron with a single hidden layer. Like most of the machine
-                            learning algorithm, we feed some called-training data into the computer.                        
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <h2>Contact</h2>
-        <section id="contact">
-            <!-- Question 5. Add a link to your favorite social media account to the text "here". -->
-
-            <!-- Footer -->
-            <footer id="foot">
-
-                <br>
-
-                <a href="mailto:morpin27@gmail.com" class="footer__link">morpin27@gmail.com</a>
-
-                <ul class="social-list">
-                    <li class="social-ist__item">
-                        <a href="https://www.linkedin.com/in/wing-yeung-ma-170109218" class="social-list__link">
-                            <i class='bx bxl-linkedin-square'></i>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home-heart' >
+                                <span>Home</span>
+                            </i>
                         </a>
                     </li>
-                    <li class="social-ist__item">
-                        <a href="https://github.com/morpinma-wing" class="social-list__link">
-                            <i class='bx bxl-github'></i>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class='bx bx-code-block'>
+                                <span>Skills</span>
+                            </i>
                         </a>
                     </li>
-                    <li class="social-ist__item">
-                        <a href="mailto:morpin27@gmail.com" class="social-list__link">
-                            <i class='bx bxs-envelope'></i>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-face'>
+                                <span>About</span>
+                            </i>
                         </a>
                     </li>
-                    <li class="social-ist__item">
-                        <a href="pdf/resume.pdf" download="WingYeungMa-Resume.pdf" class="social-list__link">
-                            <i class='bx bx-detail'></i>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-link-external' >
+                                <span>Projects</span>
+                            </i>
                         </a>
                     </li>
                 </ul>
-            </footer>
+            </nav>
+        </header>
 
+        <!-- Introduction-->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>WingYeung Ma</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Data Scientist</p>
+            <img src="img/self.jpg" alt="a picture of Wing" class="intro__img">
         </section>
-    </div>
-</body>
+
+        <!-- Services -->
+        <section class="my-serices" id="services">
+            <h2 class="section__title section__title--services">Skills</h2>
+
+            <div class="services">
+                <!-- 3 column of what I do-->
+                <div class="service">
+                    <h3>Java</h3>
+                    <p>I have experience with a lot of projects with java. It includes
+                        games, softwares and apps. Some examples includes enigma machine, 
+                        pong, break out, floods, and gitlet. See some of the work down below.</p>
+                </div>
+
+                <div class="service">
+                    <h3>Python</h3>
+                    <p>I have been working with python in the past three years. Most of my class 
+                        required the use of python for different purpose. Python can be used to anaylsis network flow, 
+                        data anaylsis, machine learning, linear regression and software development. See projects below</p></div>
+
+                <div class="service">
+                    <h3>Html + CSS + Javascript</h3>
+                    <p>I love creating network with the combination of HTML, CSS, and Javascript. I have create few 
+                        website and design with html + CSS and add functionality to it. It includes a portfolio, 
+                        api access, and, apps. Feel free to browse few links under my projects section.</p>                
+                </div>
+
+                <div class="service">
+                    <h3> Julia </h3>
+                    <p> Julia is a new language that I learned. I have been using julia to create 
+                        different application for mathemtics. Some of the projects that I work on are 
+                        The Trapped Knight, Random Maze, Image segmentation, Neural Networks for Character Recognition.
+                    </p>                
+                </div>
+            </div>
+
+            <a href="#work" class="btn" id="mywork-btn">My Work</a>
+        </section>
+
+        <!-- About me -->
+        <seciton class="about-me" id="about">
+            <h2 class="section__title section__title--about">About Me</h2>
+            <p class="section__subtitle section__subtitle--about"> Undergraduate Student at UC Berkeley major in Data Science </p>
+
+            <div class="about-me__body">
+                <p>I immigrant from Hong Kong in nine grade. My high school is Encinal High School in Alameda. Now, 
+                    I am a senior at UC Berkeley major in Data Science. My expected graduation date is Dec, 2023. I can speak 
+                    native Cantonese, fluent Mandarin and fluent English. </p>
+                <p>I am currently looking for intern/part-time job in the field of Data Science and Computer Science. My resume is attached on the bottom 
+                    of the page. For more information about me, you can find my github, and linkedin on the bottom of the page.</p>
+            </div>
+
+        </seciton>
+
+        <!-- My work -->
+        <seciton class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Projects</h2>
+            <p class="section__subtitle section__subtitle--work"> List of Projects</p>
+
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/cs61a-hog.png" alt="cs61a-hog.png" class="portfolio__img">
+                </a>
+                <!-- Portfolio item 02 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/cs61a-ants.png" alt="cs61a-ants.png" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 03 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/cs61b-proj0.png" alt="cs61b-proj0.png" class="portfolio__img">
+                </a>
+                <!-- Portfolio item 04 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/cs61b-proj1.png" alt="cs61b-proj1.png" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 05 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/cs61b-proj3.png" alt="cs61b-proj3.png" class="portfolio__img">
+                </a>
+            
+                <!-- Portfolio item 08
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-08.jpg" alt="alt image 1" class="portfolio__img">
+                </a>
+                Portfolio item 09
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-09.jpg" alt="image" class="portfolio__img">
+                </a>
+                ortfolio item 10
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-10.jpg" alt="image" class="portfolio__img">
+                </a>-->
+            </div>
+        </seciton>
+
+        <!-- Footer -->
+        <footer id="foot">
+
+            <h3>Contact me</h3>
+            <br>
+
+            <a href="mailto:morpin27@gmail.com" class="footer__link">morpin27@gmail.com</a>
+
+            <ul class="social-list">
+                <li class="social-ist__item">
+                    <a href="https://www.linkedin.com/in/wing-yeung-ma-170109218" class="social-list__link">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                </li>
+                <li class="social-ist__item">
+                    <a href="https://github.com/morpinma-wing" class="social-list__link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </li>
+                <li class="social-ist__item">
+                    <a href="mailto:morpin27@gmail.com" class="social-list__link">
+                        <i class='bx bxs-envelope'></i>
+                    </a>
+                </li>
+                <li class="social-ist__item">
+                    <a href="pdf/resume.pdf" download="WingYeungMa-Resume.pdf" class="social-list__link">
+                        <i class='bx bx-detail'></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <!-- -->
+        <script src="main.js"></script>
+
+    </body>
 </html>
