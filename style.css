@@ -257,6 +257,8 @@ header {
     position:absolute;
     top: 1em;
     right: 1em;
+    border-radius: 20%;
+    border: #00daff 1px solid;
 }
 
 .seciton__subtitle--intro {
@@ -358,12 +360,12 @@ header {
 }
 
 .about-me__body p{
-    background-color: rgb(224, 185, 125);
+    background-color: rgb(169, 227, 251);
     color: rgb(0, 0, 0);
     padding: 1.5em;
     margin: 1em;
     box-shadow: -15px 15px 17px 6px rgba(118, 181, 205, 0.43);
-    border: 4px groove rgb(178, 172, 107);
+    border: 4px groove rgb(93, 133, 156);
     border-radius: 0px 40px 0px 40px;
 }
 
