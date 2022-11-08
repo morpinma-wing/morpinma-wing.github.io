@@ -370,24 +370,21 @@ header {
 }
 
 .about-me__body p:hover{
-    animation: border_moving 3s infinite;
+    animation: border_moving 2s infinite;
 }
 
 @keyframes border_moving{
     0%{
         border: 4px groove rgb(96, 140, 216);
     }
-    20%{
-        border: 4px groove rgb(236, 139, 152);
-    }
-    40%{
+    25%{
         border: 4px groove rgb(96, 216, 194);
     }
-    60%{
+    50%{
         border: 4px groove rgb(240, 236, 157);
     }
-    85%{
-        border: 4px groove rgb(154, 125, 193);
+    75%{
+        border: 4px groove rgb(177, 248, 242);
     }
     100%{
         border: 4px groove rgb(96, 140, 216);
