@@ -460,16 +460,25 @@ header {
     .intro__img{
         display: block;
         border-radius: 100%;
-        width: 150px;
+        width: 80px;
         border: 2px solid #20549c;
         transition: ease-in-out 0.3s;
         position: absolute;
-        right: 3rem;
+        top:0.51rem;
+        right: 1rem;
     }
 
     .section__subtitle--intro{
         position: absolute;
         top: 7.5em;
+    }
+
+    .section__title--intro strong{
+        padding-top: 1rem;
+    }
+
+    .intro p{
+        margin-top: 1rem;
     }
 
 }
