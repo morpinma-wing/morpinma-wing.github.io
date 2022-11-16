@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.file-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.file-item{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.file-link{
+    margin: 1.5rem;
+    color: black;
+}
+
+.file-link:hover{
+    font-size: larger;
+    color: rgb(59, 153, 197);
+}
