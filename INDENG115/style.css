@@ -40,3 +40,18 @@ a{
     border-radius: 10px ;
     text-align: left;
 }
+
+.suggestion .doc-share{
+    display: inline-block;
+    background-color: rgb(23, 32, 42);
+    color: rgb(150, 199, 157);
+    padding: 0.5rem;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 50px;
+}
+
+.suggestion .doc-share:hover{
+    font-size: 60px;
+    color: rgb(68, 127, 198);
+}
