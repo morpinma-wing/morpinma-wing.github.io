@@ -3,10 +3,6 @@ body{
     background-color: rgb(102, 134, 161);
 }
 
-li{
-    list-style: none;
-}
-
 a{
     text-decoration: none;
 }
@@ -25,6 +21,7 @@ h2{
 .file-item{
     margin: 1rem;
     padding: 1rem;
+    list-style: none;
 }
 
 .file-link{
@@ -35,6 +32,17 @@ h2{
 .file-link:hover{
     font-size: larger;
     color: rgb(25, 94, 178);
+}
+
+.tutorial-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.tutorial-item{
+    list-style: georgian;
+    text-align: left;
+    margin-left: 4rem;
 }
 
 .code-container .code-Block {
