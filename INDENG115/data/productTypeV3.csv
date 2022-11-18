@@ -1,0 +1,11 @@
+ProductID,Product_name,Cost,Size,Warranty_type
+1,"Air Conditioners",3215,120,"Outdoor Units Warranty (ACs & Heat Pumps)"
+2,Furnaces,5621,135,"Furnaces Warranty"
+3,"Heat pumps",2334,24,"Outdoor Units Warranty (ACs & Heat Pumps)"
+4,"Smart thermostats",245,20,"Air Handlers Warranty"
+5,"Heat pump packaged",3445,30,"Outdoor Units Warranty (ACs & Heat Pumps)"
+6,"Multi-zone ductless",4452,60,"Ductless Systems Warranty"
+7,"Air purification",453,42,"Air Handlers Warranty"
+8,"Trane Home App",343,12,"Air Handlers Warranty"
+9,"Comfort Coil",831,24,"Coil Warranty"
+10,"Humidity control",314,13,"Air Handlers Warranty"

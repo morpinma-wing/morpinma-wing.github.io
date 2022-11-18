@@ -1,0 +1,21 @@
+CustomerID,Street_number,Street_name,State,Zipcode,Unit_number,First,MI,Last,Customer_since_date,Industry
+1,6778,"Latasha Lock Valleys",IN,47295,0,Shawn,S,Richard,1997-01-17,Healthcare
+2,4869,"Richard Divide Motorway",NC,28269,775,Michael," ",Coleman,2004-02-22,Healthcare
+3,0,"Butler Plains Oval",SC,29073,121,Stephen,Y,Gonzalez,2005-05-05,Agriculture
+4,78340,"Andrews Plaza Via",NE,68075,0,Brenda," ",Washington,2004-08-10,Healthcare
+5,3456,"Thomas Villages Mall",AZ,85155,0,Jeremy,V,Gallagher,2012-12-25,Recreation
+6,8912,"John Spring Springs",AR,72560,0,Jonathan," ",Sexton,2014-12-27,Transportation
+7,39476,"Sanchez Islands Stravenue",AZ,85194,0,Rebecca," ",Myers,2018-08-23,Agriculture
+8,226,"Jason Ramp Ports",MN,55407,0,Jeremiah," ",Joseph,2012-07-30,Construction
+9,79529,"David Grove Lodge",SD,57642,0,Leah,V,White,2017-08-08,Transportation
+10,68441,"Stuart Oval Vista",VA,24117,0,Chelsea," ",Miller,2011-02-08,Healthcare
+11,4059,"Jackson Field Plaza",AL,35390,0,Christopher,U,Smith,2019-10-19,Agriculture
+12,782,"Brandon Ville Dam",IA,51753,0,Kimberly,J,Hernandez,2007-02-07,Recreation
+13,57570,"Todd Port Groves",NM,87425,0,Stephanie," ",Garcia,2008-10-09,Transportation
+14,226,"Wesley Isle Cliffs",KY,42188,637,Danny," ",Gonzalez,2001-10-14,Transportation
+15,243,"Gonzalez Alley Common",FL,34513,0,John,V,Rodriguez,1994-11-22,Agriculture
+16,6201,"Ross Ports Glens",MA,1407,751,Gene,Y,Archer,2009-03-10,Construction
+17,86262,"Pena Wells Corner",TN,37486,0,Joseph," ",Johnson,1999-04-07,Agriculture
+18,96134,"Jessica Throughway Streets",NM,88295,0,Craig,S,Wilson,1998-11-11,Healthcare
+19,174,"Andrea Roads Shore",SC,29766,481,Carolyn,M,Rodriguez,1995-12-21,Agriculture
+20,3675,"Mason Field Hills",KS,66858,935,Kyle," ",Smith,1994-06-02,Recreation
