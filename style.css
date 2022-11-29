@@ -152,6 +152,7 @@ header {
     list-style: none;
     display: flex;
     justify-content: space-around; 
+    overflow: scroll;
     margin: 0;
     padding: 0;
 }
