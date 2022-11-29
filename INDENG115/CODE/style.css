@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    background-color: rgb(102, 134, 161);
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    text-align: left;
+    margin-left: 3rem;
+}
+
+.code-container .code-Block {
+    display: inline-block;
+    background-color: rgb(23, 32, 42);
+    color: rgb(150, 199, 157);
+    padding: 1rem;
+    border-radius: 10px ;
+    text-align: left;
+}

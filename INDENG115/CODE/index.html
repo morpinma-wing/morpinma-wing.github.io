@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IND ENG 115</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    </head>
+
+    <body>
+        <h1>IND ENG 115 CODE EXAMPLES </h1>
+
+        <h2>Code Starter</h2>
+        
+        <div class = "code-container">
+            <pre class = "code-Block">
+import pandas as pd
+
+df = pd.read_csv('filename.csv')
+            </pre>
+        </div>
+
+        <div class = "code-container">
+            <pre class = "code-Block">
+import mysql.connector
+import pandas as pd
+                 
+# connecting to the database
+dataBase = mysql.connector.connect(
+    host = "localhost",
+    user = "yourusername", #should be root by default
+    passwd = "yourpassword",
+    database = "team1_thoms")
+            </pre>
+        </div>
+
+        <div class = "code-container">
+            <pre class = "code-Block">
+my_tables = pd.read_sql("SHOW TABLES",dataBase)
+my_tables.Tables_in_team1_thoms.to_list()
+
+my_data = pd.read_sql("SELECT * FROM customer",dataBase)
+my_data.head()
+            </pre>
+        </div>
+
+    </body>
+</html>
