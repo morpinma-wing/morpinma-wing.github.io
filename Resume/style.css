@@ -168,21 +168,22 @@ header {
     color: #00daff;
 }
 
-.sub_holder{
+.sub_list{
     position: relative;
+    background: #53a9d7;
+    border-radius: 10px;
 }
 
-.sub_list{
+.sub_item{
     display: none;
-    border-radius: 10px;
     position: absolute;
     background: #53a9d7;
     color: black;
 }
 
-.sub_holder:hover .sub_list{
+.sub_list:hover .sub_item{
     display: block;
-    width: 100%;
+    width: 100%vw;
 }
 
 @media (min-width: 1000px) {
@@ -195,7 +196,7 @@ header {
         position:fixed;
         height: 50px;
         transition: ease 2s;
-        overflow: auto;
+        overflow: hidden;
         border-radius: 50%;
     }
 
@@ -247,31 +248,6 @@ header {
         transform: scale(1.1);
         color: #00daff;
     }
-
-    .sub_holder{
-        position: relative;
-    }
-    
-    .sub_list{
-        display: none;
-        border-radius: 10px;
-        position: absolute;
-        background: #53a9d7;
-        color: black;
-    }
-
-    .sub_holder:hover .sub_list{
-        display: flex;
-        flex-direction: row;
-        left: 10em;
-        bottom: 0;
-    }
-
-    .sub_holder a i span:hover header{
-        background-color: #303030;
-    }
-
-
 }
 
 @media (max-width: 500px) {
