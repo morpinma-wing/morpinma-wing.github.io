@@ -1,0 +1,264 @@
+.gameContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* styles for left side of game */
+.streamButton {
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+    -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
+}
+
+.streamButton:hover {
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+.streamContainer {
+    background-color: rgb(26, 26, 26);
+    width: 30vw;
+    height: 17vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.streamText {
+    font-size: 2.5vw;
+    font-weight: 700;
+    user-select: none;
+    text-shadow: black 1px 0 10px;
+}
+
+.streamTitle {
+    font-size: min(1.6vw, 24px);
+    margin-top: 8px;
+    user-select: none;
+}
+
+.live {
+    background-color: rgb(230, 0, 0);
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 3px;
+    font-size: 10px;
+    user-select: none;
+}
+
+.moneyText {
+    color: rgb(47, 255, 109);
+    position: absolute;
+    font-size: 1.4vw;
+    user-select: none;
+    text-shadow: black 5px 0 15px;
+}
+
+.streamRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.streamViewers {
+    color: rgb(255, 115, 115);
+    font-size: min(1.4vw, 25px);
+    margin-top: 8px;
+    user-select: none;
+}
+
+.viewerIcon {
+    color: rgb(255, 115, 115);
+    margin-top: 8px;
+    font-size: min(1.4vw, 25px);
+}
+
+.viewersRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.firstStatsRow {
+    margin-top: max(2vw, 15px);
+}
+
+.statsRow {
+    margin-top: 4px;
+}
+
+.statsLabel {
+    font-size: min(1.2vw, 20px);
+    font-weight: 500;
+}
+
+.statsNumber {
+    font-size: min(1.2vw, 20px);
+    font-weight: 500;
+}
+
+.statsContainer {
+    margin-bottom: max(2vw, 20px);
+}
+
+.moneyLabel {
+    font-size: min(1.6vw, 24px);
+    font-weight: 700;
+}
+
+.gameSelectionContainer {
+    margin-bottom: 30px;
+}
+
+.gameSelectionTitle {
+    font-size: min(1.6vw, 24px);
+    margin-bottom: 8px;
+}
+
+/* styles for right side of game */
+.upgradesTitle {
+    font-size: min(1.6vw, 24px);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.buttonContainer {
+    margin-left: 40px;
+}
+
+.buttonColumns {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.settingsButtons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.settingsButtonText {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.settingsButton {
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 4px;
+    background-color: rgb(42, 42, 42);
+    height: 28px;
+    max-height: 28px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.settingsButton:hover {
+    background-color: rgb(54, 54, 54);
+    cursor: pointer;
+}
+
+.savedText {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 6px;
+    margin-bottom: 8px;
+    color: rgb(180, 180, 180);
+}
+
+.savedInvisible {
+    color: rgb(180, 180, 180, 0);
+    user-select: none;
+}
+
+@media only screen and (max-width: 850px) {
+    .streamContainer {
+        width: 80vw;
+        height: 48vw;
+    }
+
+    .gameContainer {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .settingsButtons {
+        gap: 1.5vw;
+    }
+
+    .settingsButtonText {
+        font-size: 2.2vw;
+        font-weight: 500;
+    }
+    
+    .settingsButton {
+        padding-left: 0.7vw;
+        padding-right: 0.7vw;
+        border-radius: 0.5vw;
+        background-color: rgb(42, 42, 42);
+        height: 3.8vw;
+        max-height: 3.8vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .buttonColumns {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .buttonContainer {
+        margin-left: 0px;
+    }
+    
+    .streamText {
+        font-size: 4vw;
+    }
+
+    .streamTitle {
+        font-size: 2.8vw;
+    }
+
+    .streamViewers {
+        font-size: 2.4vw;
+    }
+
+    .viewerIcon {
+        font-size: 2.4vw;
+    }
+
+    .statsLabel {
+        font-size: 2.2vw;
+    }
+    
+    .statsNumber {
+        font-size: 2.2vw;
+    }
+
+    .moneyLabel {
+        font-size: 2.8vw;
+    }
+
+    .gameSelectionTitle {
+        font-size: 2.8vw;
+    }
+
+    .upgradesTitle {
+        font-size: 2.8vw;
+    }
+}

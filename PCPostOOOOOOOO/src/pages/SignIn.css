@@ -1,0 +1,48 @@
+.achievementsTitle {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.achievementContainer {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.achievementColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 850px) {
+    .achievementsTitle {
+        font-size: 4vw;
+        margin-bottom: 3vw;
+    }
+    
+    .achievementContainer {
+        gap: 1.2vw;
+    }
+
+    .achievementColumn {
+        gap: 0.8vw;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .achievementsTitle {
+        font-size: 5vw;
+    }
+    
+    .achievementContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2vw;
+    }
+
+    .achievementColumn {
+        gap: 1.3vw;
+    }
+}
