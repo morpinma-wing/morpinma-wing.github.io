@@ -1,12 +1,25 @@
 import './SignIn.css';
 import Background from '../components/Background';
-import HeaderBar from '../components/HeaderBar';
-import { Link } from "react-router-dom";
+import { signInBtn } from '../Backend';
 
 function SignIn() {
   return (
     <div>
-      <h1>hjvgjkv</h1>
+      <Background>
+
+        <section >
+
+          <button id = "signInBtn" onClick={signInBtn}>Sign in with Google</button>
+
+        </section>
+
+        <section>
+
+          <button id = "signOutBtn">Sign Out</button>
+
+        </section>
+
+      </Background>
     </div>
   );
 }

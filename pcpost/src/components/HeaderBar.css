@@ -1,0 +1,12 @@
+/* Start handle headerbar*/
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-bar{
+    width: 80%;
+}
+
+/* End handle headerbar*/
