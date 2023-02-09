@@ -1,0 +1,31 @@
+.CubstartTextWrapper {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: aliceblue;
+    width: auto;
+    height: auto;
+    padding-bottom: 2%;
+}
+
+.CubstartTextWrapper:hover {
+    animation: colorSpin 2s infinite;
+}
+
+@keyframes colorSpin {
+    0%   {color: rgb(218, 124, 124);}
+    25%  {color: rgb(158, 227, 161);}
+    50%  {color: rgb(78, 174, 187);}
+    100% {color: rgb(227, 117, 235);}
+}
+
+.CubstartText {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    transition: transform .5s ease-in-out;
+}
+
+.CubstartText:hover {
+    color: aqua;
+    transform: translateY(200px);
+}

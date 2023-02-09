@@ -1,5 +1,6 @@
 {
   "name": "pcpost",
+  "homepage": "https://morpinma-wing.github.io/PCPost",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
