@@ -145,7 +145,6 @@ header {
 .nav {
     background: #53a9d7;
     color: black;
-    border-radius: 50px;
 }
 
 .nav__list {
@@ -160,12 +159,15 @@ header {
     color: inherit;
     font-size: var(--fs-h3);
     text-decoration: none;
-    padding: 0px 16px;
+    padding: 5px 16px;
 }
 
 .nav__link:hover{
     transform: scale(1.1);
     color: #00daff;
+    box-shadow: rgb(0, 0, 0) 0 5px 10px;
+    border-radius: 50px;
+    
 }
 
 .sub_holder{
@@ -240,7 +242,7 @@ header {
         color: inherit;
         font-size: var(--fs-h3);
         text-decoration: none;
-        padding-left: 2em;
+        margin-left: 2em;
     }
 
     .nav__link:hover{
@@ -263,7 +265,7 @@ header {
     .sub_holder:hover .sub_list{
         display: flex;
         flex-direction: row;
-        left: 10em;
+        left: 15em;
         bottom: 0;
     }
 
